@@ -78,7 +78,7 @@ except TypeError:
 
 
 setup(
-    name='textdistance',
+    name='textdistanceedit',
     version='4.2.2',
 
     author='orsinium',
