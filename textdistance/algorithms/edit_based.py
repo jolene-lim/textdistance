@@ -253,9 +253,9 @@ class JaroWinkler(_BaseSimilarity):
 
         min_len = min(s1_len, s2_len)
         search_range = max(s1_len, s2_len)
-        search_range = (search_range // 2) - 1
-        if search_range < 0:
-            search_range = 0
+        search_range = 5 # (search_range // 2) - 1
+        #if search_range < 0:
+        #    search_range = 0
 
         s1_flags = [False] * s1_len
         s2_flags = [False] * s2_len
